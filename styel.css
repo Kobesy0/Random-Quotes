@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: url(haven1-i_see_stars-01.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: "Rubik" , sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1{
+    background-color: #ffffff63;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 8px 8px #03A9F4;
+}
+
+.card-quotes{   
+    margin: 0 auto;
+    background: #fff;
+    max-width: 600px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 180px;
+    top: 50%;
+    transform: translateY(50%)
+}
+.quote-id{
+    width: 40px;
+    height: 40px;
+    background: #2196F3;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: -8%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+.quote-display{
+    font-size: 24px;
+    padding: 15px;
+    margin: 10px auto;
+    line-height: 1.4;
+    position: relative;
+    min-height: 170px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.quote-display::after,
+.quote-display::before{
+    position: absolute;
+    font-size: 50px ;
+    color: #c6c6c6;
+}
+.quote-display::before{
+    content: "“";
+    bottom: -35px;
+    right: 5px;
+}
+.quote-display::after{
+    content: "”";
+    left: 10px;
+    top: -15px;
+}
+
+.author-name{
+    position: absolute;
+    font-style: italic;
+    right: 50px;
+    bottom: 100px;
+}
+.first-buttons{
+    position: absolute;
+    z-index: 2;
+}
+.first-buttons .button{
+    color: #2196F3;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+.first-buttons .button:hover{
+    background: #2196F3;
+    color: #fff;
+}
+
+/* --------------------------------------------------------- */
+.first-buttons .sound.play{
+    color: #BF0413;
+}
+
+.buttons .button-generate.loading{
+    color: #BF0413;
+    pointer-events: none;
+}
+
+.buttons .button-auto.done{
+    background: #BF0413;
+    color: #fff;
+    pointer-events: none;
+}
+
+.buttons{
+    gap: 10px;
+    margin: 10px 0;
+}
+.buttons button {
+    background-color: white;
+    color: #2196F3;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #2196F3;
+    box-shadow: 0 0 0 0 #2196F3;
+}
+
+.buttons button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 #2196F3;
+};
+
+.buttons button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 #2196F3;
+};
+
+
