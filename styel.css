@@ -82,9 +82,16 @@ h1{
 }
 
 .author-name{
+    position: absolute;
     font-style: italic;
     right: 50px;
-    bottom: 100px;
+    bottom: 120px;
+}
+@media(max-width:740px){
+    .author-name{
+        position: absolute;
+        top: 190px;
+    }
 }
 .first-buttons{
     position: absolute;
@@ -109,6 +116,11 @@ h1{
 }
 
 /* --------------------------------------------------------- */
+@media(max-width:740px){
+    .buttons {
+        width: 100%;
+    }
+}
 .first-buttons .sound.play{
     color: #BF0413;
 }
