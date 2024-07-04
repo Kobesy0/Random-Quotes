@@ -13,6 +13,7 @@ let authorName = document.querySelector(".author-name");
 let generate = document.querySelector(".button-generate");
 let auto = document.querySelector(".button-auto");
 let stop = document.querySelector(".button-stop");
+let github = document.querySelector(".github");
 let intervalId;
 
 
@@ -94,6 +95,10 @@ sound.addEventListener("click" ,auotSound);
 twitter.addEventListener("click", ()=> {
     let twittURL = `http://www.twitter.com/share?url=${quoteDiv.innerHTML} by ${authorName.innerHTML} `;
     window.open(twittURL , "_black")
-})
+});
 
+github.addEventListener("click" , () => {
+    const link = `https://github.com/Kobesy0`;
+    window.open(link , "_blank")
+})
 // End 
