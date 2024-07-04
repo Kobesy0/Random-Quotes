@@ -5,6 +5,7 @@ let copyBtn = document.querySelector(".copy-button");
 let right = `<i class="fa-solid fa-check"></i>`
 let sound = document.querySelector(".sound");
 let twitter = document.querySelector(".x-twitter");
+let github =  document.querySelector(".github");
 
 let quoteId = document.querySelector(".quote-id");
 let quoteDiv = document.querySelector(".quote-display");
@@ -13,7 +14,6 @@ let authorName = document.querySelector(".author-name");
 let generate = document.querySelector(".button-generate");
 let auto = document.querySelector(".button-auto");
 let stop = document.querySelector(".button-stop");
-let github =  document.querySelector(".github");
 let intervalId;
 
 
