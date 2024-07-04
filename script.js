@@ -13,7 +13,7 @@ let authorName = document.querySelector(".author-name");
 let generate = document.querySelector(".button-generate");
 let auto = document.querySelector(".button-auto");
 let stop = document.querySelector(".button-stop");
-let github = document.querySelector(".github");
+let github =  document.querySelector(".github");
 let intervalId;
 
 
